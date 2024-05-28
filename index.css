@@ -10,10 +10,12 @@ body{
 }
 nav{
     /*background-color: red;*/
+    background-color: crimson;
     display: flex;
     flex-direction: row;
     margin-left: 5em;
     margin-right: 5em;
+    padding: 0.5em;
 
 }
 .nav{
@@ -30,14 +32,33 @@ nav{
     color: black;
     vertical-align: bottom;
 }
+.nav a:hover{
+    background-color: crimson;
+}
 .domov{
     font-size: 23px;
     text-decoration: none;
     color: black;
+}
+.domov:hover{
+    background-color: red;
 }
 .kontakty{
     list-style: none;
 }
 footer{
     background-color: rgb(150, 150, 150);
+}
+section{
+    background-color: aquamarine;
+}
+h1{
+    font-size: 30px;
+}
+h4{
+    margin-left: 15%;
+}
+p{
+    font-size: 17px;
+    margin-left: 1.5em;
 }

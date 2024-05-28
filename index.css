@@ -1,6 +1,8 @@
 *{
-    background-color: aliceblue;
     font-family: 'Comic Sans MS';
+}
+body{
+    background-color: aliceblue;
 }
 .nazov{
     text-align: center;
@@ -32,4 +34,10 @@ nav{
     font-size: 23px;
     text-decoration: none;
     color: black;
+}
+.kontakty{
+    list-style: none;
+}
+footer{
+    background-color: rgb(150, 150, 150);
 }

@@ -16,6 +16,7 @@ nav{
     margin-left: 5em;
     margin-right: 5em;
     padding: 0.5em;
+    margin-bottom: 10px;
 
 }
 .nav{
@@ -51,14 +52,46 @@ footer{
 }
 section{
     background-color: aquamarine;
+    padding: 10px;
 }
 h1{
     font-size: 30px;
 }
 h4{
     margin-left: 15%;
+    text-decoration: underline;
 }
 p{
     font-size: 17px;
     margin-left: 1.5em;
+}
+table{
+    border-collapse: collapse;
+    background-color: aliceblue;
+    margin: 10px;
+    margin-left: 7%;
+}
+th, td{
+    border: 1px solid;
+    padding: 3px;
+}
+#gjarko{
+    width: 25%;
+    margin-left: 1em;
+}
+.skola{
+    margin-right: 50%;
+}
+#skola{
+    display: flex;
+}
+#smeralka{
+    width: 20%;
+    margin-left: 1em;
+}
+#zoznam_nastrojov{
+    display: flex;
+}
+#basa{
+    height: 15em;
 }

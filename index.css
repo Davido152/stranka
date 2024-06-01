@@ -31,7 +31,7 @@ nav{
     font-size: 19px;
     text-decoration: none;
     color: black;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 .nav a:hover{
     background-color: crimson;
@@ -58,7 +58,7 @@ h1{
     font-size: 30px;
 }
 h4{
-    margin-left: 15%;
+    margin-left: 17%;
     text-decoration: underline;
 }
 p{
@@ -69,11 +69,15 @@ table{
     border-collapse: collapse;
     background-color: aliceblue;
     margin: 10px;
-    margin-left: 7%;
+    margin-left: 1.5em;
 }
 th, td{
     border: 1px solid;
     padding: 3px;
+}
+td{
+    width: 3em;
+    text-align: center;
 }
 #gjarko{
     width: 25%;
@@ -94,4 +98,24 @@ th, td{
 }
 #basa{
     height: 15em;
+}
+.obrazky{
+    display: inline;
+    margin-left: 3%;
+}
+.obrazky img{
+    width: 20%;
+    margin: 10px;
+}
+#pisa{
+    width: 30%;
+}
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+#galeria img{
+    height: 68vh;
+    padding: 5px;
 }
